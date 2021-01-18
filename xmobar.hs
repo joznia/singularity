@@ -1,3 +1,4 @@
+-- singularity color scheme for xmobar
 Config { font = "xft:Ubuntu Mono:size=10:antialias=true:hinting=true"
        , borderColor = "#282c34"
        , border = NoBorder
