@@ -4,6 +4,6 @@ This is a color scheme I've ported to a few applications. It is a clone of Doom 
 + alacritty
 + (neo)vim
 + xmobar
-*** TODO
+*** To-do support:
 + termite
 + qtile and awesomewm powerarrow
