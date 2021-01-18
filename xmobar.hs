@@ -21,7 +21,7 @@ Config { font = "xft:Ubuntu Mono:size=10:antialias=true:hinting=true"
                                            , "-L","0","-H","10000000"
                                            , "--normal","#ecbe7b","--high","#ff6c6b"] 10
                     , Run Weather "KNYC" ["-t", "<station>: <tempF>F"] 36000
-                    , Run Com "uname" ["-r"] "" 36000
+                    , Run Com "uname" ["-r", "-s"] "" 36000
                     , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
                     ]
        , sepChar = "%"
