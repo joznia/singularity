@@ -1,4 +1,4 @@
-if onetheme#should_abort('xml')
+if singularity#should_abort('xml')
     finish
 endif
 

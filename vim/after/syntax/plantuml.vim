@@ -1,4 +1,4 @@
-if onetheme#should_abort('plantuml')
+if singularity#should_abort('plantuml')
     finish
 endif
 

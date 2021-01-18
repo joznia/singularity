@@ -1,4 +1,4 @@
-if onetheme#should_abort('tex')
+if singularity#should_abort('tex')
     finish
 endif
 

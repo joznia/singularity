@@ -1,4 +1,4 @@
-if onetheme#should_abort('vim')
+if singularity#should_abort('vim')
     finish
 endif
 

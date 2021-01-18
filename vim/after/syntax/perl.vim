@@ -1,4 +1,4 @@
-if onetheme#should_abort('perl')
+if singularity#should_abort('perl')
     finish
 endif
 

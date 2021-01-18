@@ -1,4 +1,4 @@
-if onetheme#should_abort('yaml')
+if singularity#should_abort('yaml')
     finish
 endif
 

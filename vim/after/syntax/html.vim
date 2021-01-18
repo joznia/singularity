@@ -1,4 +1,4 @@
-if onetheme#should_abort('html')
+if singularity#should_abort('html')
     finish
 endif
 

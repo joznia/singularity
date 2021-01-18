@@ -1,4 +1,4 @@
-if onetheme#should_abort('ruby')
+if singularity#should_abort('ruby')
     finish
 endif
 

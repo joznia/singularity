@@ -1,4 +1,4 @@
-if onetheme#should_abort('rst')
+if singularity#should_abort('rst')
     finish
 endif
 

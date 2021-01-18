@@ -1,4 +1,4 @@
-if onetheme#should_abort('lua')
+if singularity#should_abort('lua')
     finish
 endif
 

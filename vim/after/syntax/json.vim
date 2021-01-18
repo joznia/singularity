@@ -1,4 +1,4 @@
-if onetheme#should_abort('json')
+if singularity#should_abort('json')
     finish
 endif
 

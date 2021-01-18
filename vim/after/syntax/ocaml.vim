@@ -1,4 +1,4 @@
-if onetheme#should_abort('ocaml')
+if singularity#should_abort('ocaml')
     finish
 endif
 

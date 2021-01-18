@@ -1,4 +1,4 @@
-if onetheme#should_abort('rust')
+if singularity#should_abort('rust')
     finish
 endif
 

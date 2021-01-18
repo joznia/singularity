@@ -1,4 +1,4 @@
-if onetheme#should_abort('css')
+if singularity#should_abort('css')
     finish
 endif
 
