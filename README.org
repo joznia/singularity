@@ -4,6 +4,6 @@ This is a color scheme I've ported to a few applications. It is a clone of Doom 
 + alacritty
 + (neo)vim: [[https://github.com/joznia/singularity.vim][here]]
 + xmobar
-*** To-do support:
 + termite
+*** To-do support:
 + qtile and awesomewm powerarrow
