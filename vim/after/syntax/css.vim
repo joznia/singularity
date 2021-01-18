@@ -3,13 +3,13 @@ if singularity#should_abort('css')
 endif
 
 hi! link cssAttrComma         Delimiter
-hi! link cssAttrRegion        DraculaPink
-hi! link cssAttributeSelector DraculaGreenItalic
+hi! link cssAttrRegion        SingularityPink
+hi! link cssAttributeSelector SingularityGreenItalic
 hi! link cssBraces            Delimiter
 hi! link cssFunctionComma     Delimiter
-hi! link cssNoise             DraculaPink
-hi! link cssProp              DraculaCyan
-hi! link cssPseudoClass       DraculaPink
-hi! link cssPseudoClassId     DraculaGreenItalic
-hi! link cssUnitDecorators    DraculaPink
-hi! link cssVendor            DraculaGreenItalic
+hi! link cssNoise             SingularityPink
+hi! link cssProp              SingularityCyan
+hi! link cssPseudoClass       SingularityPink
+hi! link cssPseudoClassId     SingularityGreenItalic
+hi! link cssUnitDecorators    SingularityPink
+hi! link cssVendor            SingularityGreenItalic

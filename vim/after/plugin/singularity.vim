@@ -10,10 +10,10 @@ if exists('g:loaded_fzf') && ! exists('g:fzf_colors')
     \ 'hl':      ['fg', 'Search'],
     \ 'fg+':     ['fg', 'Normal'],
     \ 'bg+':     ['bg', 'Normal'],
-    \ 'hl+':     ['fg', 'DraculaOrange'],
-    \ 'info':    ['fg', 'DraculaPurple'],
+    \ 'hl+':     ['fg', 'SingularityOrange'],
+    \ 'info':    ['fg', 'SingularityPurple'],
     \ 'border':  ['fg', 'Ignore'],
-    \ 'prompt':  ['fg', 'DraculaGreen'],
+    \ 'prompt':  ['fg', 'SingularityGreen'],
     \ 'pointer': ['fg', 'Exception'],
     \ 'marker':  ['fg', 'Keyword'],
     \ 'spinner': ['fg', 'Label'],
@@ -23,13 +23,13 @@ endif
 "}}}
 " ALE: {{{
 if exists('g:ale_enabled')
-  hi! link ALEError              DraculaErrorLine
-  hi! link ALEWarning            DraculaWarnLine
-  hi! link ALEInfo               DraculaInfoLine
+  hi! link ALEError              SingularityErrorLine
+  hi! link ALEWarning            SingularityWarnLine
+  hi! link ALEInfo               SingularityInfoLine
 
-  hi! link ALEErrorSign          DraculaRed
-  hi! link ALEWarningSign        DraculaOrange
-  hi! link ALEInfoSign           DraculaCyan
+  hi! link ALEErrorSign          SingularityRed
+  hi! link ALEWarningSign        SingularityOrange
+  hi! link ALEInfoSign           SingularityCyan
 
   hi! link ALEVirtualTextError   Comment
   hi! link ALEVirtualTextWarning Comment

@@ -2,7 +2,7 @@ if singularity#should_abort('xml')
     finish
 endif
 
-hi! link xmlAttrib  DraculaGreenItalic
+hi! link xmlAttrib  SingularityGreenItalic
 hi! link xmlEqual   Operator
 hi! link xmlTag     Delimiter
 hi! link xmlTagName Statement

@@ -11,11 +11,11 @@ hi! link javaScriptFunction Keyword
 
 hi! link jsArrowFunction           Operator
 hi! link jsClassMethodType         Keyword
-hi! link jsDestructuringAssignment DraculaOrangeItalic
-hi! link jsDocParam                DraculaOrangeItalic
+hi! link jsDestructuringAssignment SingularityOrangeItalic
+hi! link jsDocParam                SingularityOrangeItalic
 hi! link jsDocTags                 Keyword
 hi! link jsDocType                 Type
-hi! link jsDocTypeBrackets         DraculaCyan
+hi! link jsDocTypeBrackets         SingularityCyan
 hi! link jsFuncArgOperator         Operator
 hi! link jsFunction                Keyword
 hi! link jsTemplateBraces          Special
@@ -28,7 +28,7 @@ hi! link jsxTag             Keyword
 hi! link jsxTagName         Keyword
 hi! link jsxComponentName   Type
 hi! link jsxCloseTag        Type
-hi! link jsxAttrib          DraculaGreenItalic
+hi! link jsxAttrib          SingularityGreenItalic
 hi! link jsxCloseString     Identifier
 hi! link jsxOpenPunct       Identifier
 

@@ -3,6 +3,6 @@ if singularity#should_abort('bash', 'ksh', 'posix', 'sh')
 endif
 
 hi! link shCommandSub NONE
-hi! link shEscape     DraculaRed
+hi! link shEscape     SingularityRed
 hi! link shParen      NONE
 hi! link shParenError NONE

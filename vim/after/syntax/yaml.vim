@@ -2,11 +2,11 @@ if singularity#should_abort('yaml')
     finish
 endif
 
-hi! link yamlAlias           DraculaGreenItalicUnderline
-hi! link yamlAnchor          DraculaPinkItalic
-hi! link yamlBlockMappingKey DraculaCyan
-hi! link yamlFlowCollection  DraculaPink
+hi! link yamlAlias           SingularityGreenItalicUnderline
+hi! link yamlAnchor          SingularityPinkItalic
+hi! link yamlBlockMappingKey SingularityCyan
+hi! link yamlFlowCollection  SingularityPink
 hi! link yamlFlowIndicator   Delimiter
-hi! link yamlNodeTag         DraculaPink
-hi! link yamlPlainScalar     DraculaYellow
+hi! link yamlNodeTag         SingularityPink
+hi! link yamlPlainScalar     SingularityYellow
 

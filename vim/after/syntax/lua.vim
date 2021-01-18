@@ -2,20 +2,20 @@ if singularity#should_abort('lua')
     finish
 endif
 
-hi! link luaFunc  DraculaCyan
-hi! link luaTable DraculaFg
+hi! link luaFunc  SingularityCyan
+hi! link luaTable SingularityFg
 
 " tbastos/vim-lua {{{
 
-hi! link luaBraces       DraculaFg
+hi! link luaBraces       SingularityFg
 hi! link luaBuiltIn      Constant
 hi! link luaDocTag       Keyword
-hi! link luaErrHand      DraculaCyan
-hi! link luaFuncArgName  DraculaOrangeItalic
+hi! link luaErrHand      SingularityCyan
+hi! link luaFuncArgName  SingularityOrangeItalic
 hi! link luaFuncCall     Function
 hi! link luaLocal        Keyword
 hi! link luaSpecialTable Constant
-hi! link luaSpecialValue DraculaCyan
+hi! link luaSpecialValue SingularityCyan
 
 " }}}
 

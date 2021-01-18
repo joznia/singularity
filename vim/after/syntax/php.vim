@@ -4,7 +4,7 @@ endif
 
 hi! link phpClass           Type
 hi! link phpClasses         Type
-hi! link phpDocTags         DraculaCyanItalic
+hi! link phpDocTags         SingularityCyanItalic
 hi! link phpFunction        Function
 hi! link phpParent          Normal
-hi! link phpSpecialFunction DraculaCyan
+hi! link phpSpecialFunction SingularityCyan

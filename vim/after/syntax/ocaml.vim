@@ -4,4 +4,4 @@ endif
 
 hi! link ocamlModule  Type
 hi! link ocamlModPath Normal
-hi! link ocamlLabel   DraculaOrangeItalic
+hi! link ocamlLabel   SingularityOrangeItalic

@@ -3,10 +3,10 @@ if singularity#should_abort('gitcommit')
 endif
 
 " The following two are misnomers. Colors are correct.
-hi! link diffFile    DraculaGreen
-hi! link diffNewFile DraculaRed
+hi! link diffFile    SingularityGreen
+hi! link diffNewFile SingularityRed
 
-hi! link diffAdded   DraculaGreen
-hi! link diffLine    DraculaCyanItalic
-hi! link diffRemoved DraculaRed
+hi! link diffAdded   SingularityGreen
+hi! link diffLine    SingularityCyanItalic
+hi! link diffRemoved SingularityRed
 
