@@ -1,6 +1,6 @@
 " Dracula Theme: {{{
 "
-" https://github.com/zenorocha/one-theme-theme
+" https://github.com/zenorocha/onetheme-theme
 "
 " Copyright 2016, All rights reserved
 "
@@ -23,7 +23,7 @@ if v:version > 580
   endif
 endif
 
-let g:colors_name = 'one-theme'
+let g:colors_name = 'onetheme'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
@@ -31,77 +31,77 @@ endif
 
 " Palette: {{{2
 
-let s:fg        = g:one-theme#palette.fg
+let s:fg        = g:onetheme#palette.fg
 
-let s:bglighter = g:one-theme#palette.bglighter
-let s:bglight   = g:one-theme#palette.bglight
-let s:bg        = g:one-theme#palette.bg
-let s:bgdark    = g:one-theme#palette.bgdark
-let s:bgdarker  = g:one-theme#palette.bgdarker
+let s:bglighter = g:onetheme#palette.bglighter
+let s:bglight   = g:onetheme#palette.bglight
+let s:bg        = g:onetheme#palette.bg
+let s:bgdark    = g:onetheme#palette.bgdark
+let s:bgdarker  = g:onetheme#palette.bgdarker
 
-let s:comment   = g:one-theme#palette.comment
-let s:selection = g:one-theme#palette.selection
-let s:subtle    = g:one-theme#palette.subtle
+let s:comment   = g:onetheme#palette.comment
+let s:selection = g:onetheme#palette.selection
+let s:subtle    = g:onetheme#palette.subtle
 
-let s:cyan      = g:one-theme#palette.cyan
-let s:green     = g:one-theme#palette.green
-let s:orange    = g:one-theme#palette.orange
-let s:pink      = g:one-theme#palette.pink
-let s:purple    = g:one-theme#palette.purple
-let s:red       = g:one-theme#palette.red
-let s:yellow    = g:one-theme#palette.yellow
+let s:cyan      = g:onetheme#palette.cyan
+let s:green     = g:onetheme#palette.green
+let s:orange    = g:onetheme#palette.orange
+let s:pink      = g:onetheme#palette.pink
+let s:purple    = g:onetheme#palette.purple
+let s:red       = g:onetheme#palette.red
+let s:yellow    = g:onetheme#palette.yellow
 
 let s:none      = ['NONE', 'NONE']
 
 if has('nvim')
   for s:i in range(16)
-    let g:terminal_color_{s:i} = g:one-theme#palette['color_' . s:i]
+    let g:terminal_color_{s:i} = g:onetheme#palette['color_' . s:i]
   endfor
 endif
 
 if has('terminal')
   let g:terminal_ansi_colors = []
   for s:i in range(16)
-    call add(g:terminal_ansi_colors, g:one-theme#palette['color_' . s:i])
+    call add(g:terminal_ansi_colors, g:onetheme#palette['color_' . s:i])
   endfor
 endif
 
 " }}}2
 " User Configuration: {{{2
 
-if !exists('g:one-theme_bold')
-  let g:one-theme_bold = 1
+if !exists('g:onetheme_bold')
+  let g:onetheme_bold = 1
 endif
 
-if !exists('g:one-theme_italic')
-  let g:one-theme_italic = 1
+if !exists('g:onetheme_italic')
+  let g:onetheme_italic = 1
 endif
 
-if !exists('g:one-theme_underline')
-  let g:one-theme_underline = 1
+if !exists('g:onetheme_underline')
+  let g:onetheme_underline = 1
 endif
 
-if !exists('g:one-theme_undercurl')
-  let g:one-theme_undercurl = g:one-theme_underline
+if !exists('g:onetheme_undercurl')
+  let g:onetheme_undercurl = g:onetheme_underline
 endif
 
-if !exists('g:one-theme_inverse')
-  let g:one-theme_inverse = 1
+if !exists('g:onetheme_inverse')
+  let g:onetheme_inverse = 1
 endif
 
-if !exists('g:one-theme_colorterm')
-  let g:one-theme_colorterm = 1
+if !exists('g:onetheme_colorterm')
+  let g:onetheme_colorterm = 1
 endif
 
 "}}}2
 " Script Helpers: {{{2
 
 let s:attrs = {
-      \ 'bold': g:one-theme_bold == 1 ? 'bold' : 0,
-      \ 'italic': g:one-theme_italic == 1 ? 'italic' : 0,
-      \ 'underline': g:one-theme_underline == 1 ? 'underline' : 0,
-      \ 'undercurl': g:one-theme_undercurl == 1 ? 'undercurl' : 0,
-      \ 'inverse': g:one-theme_inverse == 1 ? 'inverse' : 0,
+      \ 'bold': g:onetheme_bold == 1 ? 'bold' : 0,
+      \ 'italic': g:onetheme_italic == 1 ? 'italic' : 0,
+      \ 'underline': g:onetheme_underline == 1 ? 'underline' : 0,
+      \ 'undercurl': g:onetheme_undercurl == 1 ? 'undercurl' : 0,
+      \ 'inverse': g:onetheme_inverse == 1 ? 'inverse' : 0,
       \}
 
 function! s:h(scope, fg, ...) " bg, attr_list, special
@@ -199,7 +199,7 @@ call s:h('DraculaDiffDelete', s:red, s:bgdark)
 set background=dark
 
 " Required as some plugins will overwrite
-call s:h('Normal', s:fg, g:one-theme_colorterm || has('gui_running') ? s:bg : s:none )
+call s:h('Normal', s:fg, g:onetheme_colorterm || has('gui_running') ? s:bg : s:none )
 call s:h('StatusLine', s:none, s:bglighter, [s:attrs.bold])
 call s:h('StatusLineNC', s:none, s:bglight)
 call s:h('StatusLineTerm', s:none, s:bglighter, [s:attrs.bold])

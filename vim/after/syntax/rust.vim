@@ -1,4 +1,4 @@
-if one-theme#should_abort('rust')
+if onetheme#should_abort('rust')
     finish
 endif
 

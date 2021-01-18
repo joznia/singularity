@@ -1,4 +1,4 @@
-if one-theme#should_abort('tex')
+if onetheme#should_abort('tex')
     finish
 endif
 

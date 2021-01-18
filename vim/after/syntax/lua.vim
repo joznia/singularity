@@ -1,4 +1,4 @@
-if one-theme#should_abort('lua')
+if onetheme#should_abort('lua')
     finish
 endif
 

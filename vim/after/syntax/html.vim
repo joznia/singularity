@@ -1,4 +1,4 @@
-if one-theme#should_abort('html')
+if onetheme#should_abort('html')
     finish
 endif
 

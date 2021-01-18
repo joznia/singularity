@@ -1,4 +1,4 @@
-if one-theme#should_abort('markdown', 'mkd')
+if onetheme#should_abort('markdown', 'mkd')
     finish
 endif
 

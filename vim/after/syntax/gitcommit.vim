@@ -1,4 +1,4 @@
-if one-theme#should_abort('gitcommit')
+if onetheme#should_abort('gitcommit')
     finish
 endif
 

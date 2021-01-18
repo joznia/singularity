@@ -1,4 +1,4 @@
-if one-theme#should_abort('python')
+if onetheme#should_abort('python')
     finish
 endif
 

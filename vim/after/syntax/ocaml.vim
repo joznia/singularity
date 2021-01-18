@@ -1,4 +1,4 @@
-if one-theme#should_abort('ocaml')
+if onetheme#should_abort('ocaml')
     finish
 endif
 

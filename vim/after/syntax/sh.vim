@@ -1,4 +1,4 @@
-if one-theme#should_abort('bash', 'ksh', 'posix', 'sh')
+if onetheme#should_abort('bash', 'ksh', 'posix', 'sh')
     finish
 endif
 

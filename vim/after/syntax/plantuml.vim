@@ -1,4 +1,4 @@
-if one-theme#should_abort('plantuml')
+if onetheme#should_abort('plantuml')
     finish
 endif
 

@@ -1,4 +1,4 @@
-if one-theme#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
+if onetheme#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
   finish
 endif
 

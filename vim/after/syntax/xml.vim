@@ -1,4 +1,4 @@
-if one-theme#should_abort('xml')
+if onetheme#should_abort('xml')
     finish
 endif
 

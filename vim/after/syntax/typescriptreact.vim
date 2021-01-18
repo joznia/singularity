@@ -1,4 +1,4 @@
-if one-theme#should_abort('typescriptreact', 'typescript.tsx')
+if onetheme#should_abort('typescriptreact', 'typescript.tsx')
     finish
 endif
 

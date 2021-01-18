@@ -1,4 +1,4 @@
-if one-theme#should_abort('json')
+if onetheme#should_abort('json')
     finish
 endif
 
