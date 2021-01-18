@@ -2,7 +2,7 @@
 This is a color scheme I've ported to a few applications. It is a clone of Doom Emacs's *doom-one* theme.
 *** Currently supported applications:
 + alacritty
-+ (neo)vim
++ (neo)vim: [[https://github.com/joznia/singularity.vim][here]]
 + xmobar
 *** To-do support:
 + termite
