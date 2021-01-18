@@ -1,4 +1,4 @@
-if dracula#should_abort('ocaml')
+if one-theme#should_abort('ocaml')
     finish
 endif
 

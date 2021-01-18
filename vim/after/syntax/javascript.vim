@@ -1,4 +1,4 @@
-if dracula#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
+if one-theme#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
   finish
 endif
 

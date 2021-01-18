@@ -1,4 +1,4 @@
-if dracula#should_abort('yaml')
+if one-theme#should_abort('yaml')
     finish
 endif
 

@@ -1,4 +1,4 @@
-if dracula#should_abort('html')
+if one-theme#should_abort('html')
     finish
 endif
 

@@ -1,4 +1,4 @@
-if dracula#should_abort('plantuml')
+if one-theme#should_abort('plantuml')
     finish
 endif
 

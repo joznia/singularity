@@ -1,4 +1,4 @@
-if dracula#should_abort('xml')
+if one-theme#should_abort('xml')
     finish
 endif
 

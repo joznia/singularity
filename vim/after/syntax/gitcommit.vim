@@ -1,4 +1,4 @@
-if dracula#should_abort('gitcommit')
+if one-theme#should_abort('gitcommit')
     finish
 endif
 

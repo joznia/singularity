@@ -1,4 +1,4 @@
-if dracula#should_abort('perl')
+if one-theme#should_abort('perl')
     finish
 endif
 

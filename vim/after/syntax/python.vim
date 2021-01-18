@@ -1,4 +1,4 @@
-if dracula#should_abort('python')
+if one-theme#should_abort('python')
     finish
 endif
 

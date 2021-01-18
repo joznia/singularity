@@ -1,4 +1,4 @@
-if dracula#should_abort('rust')
+if one-theme#should_abort('rust')
     finish
 endif
 

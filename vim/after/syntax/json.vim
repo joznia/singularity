@@ -1,4 +1,4 @@
-if dracula#should_abort('json')
+if one-theme#should_abort('json')
     finish
 endif
 

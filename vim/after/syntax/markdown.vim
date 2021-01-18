@@ -1,4 +1,4 @@
-if dracula#should_abort('markdown', 'mkd')
+if one-theme#should_abort('markdown', 'mkd')
     finish
 endif
 
