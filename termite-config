@@ -1,0 +1,54 @@
+### Singularity color scheme ###
+
+[colors]
+
+# special
+foreground      = #bbc2cf
+foreground_bold = #bbc2cf
+cursor          = #bbc2cf
+background      = #282c34
+
+# black
+color0  = #1b2229
+color8  = #3f444a
+
+# red
+color1  = #ff6c6b
+color9  = #ff6c6b
+
+# green
+color2  = #98be65
+color10 = #98be65
+
+# yellow
+color3  = #ecbe7b
+color11 = #ecbe7b
+
+# blue
+color4  = #51afef
+color12 = #51afef
+
+# magenta
+color5  = #c678dd
+color13 = #c678dd
+
+# cyan
+color6  = #46d9ff
+color14 = #46d9ff
+
+# white
+color7  = #dfdfdf
+color15 = #dfdfdf
+
+[hints]
+#font = Monospace 12
+#foreground = #bbc2cf
+#background = #282c34
+#active_foreground = #ff6c6b
+#active_background = #202328
+padding = 8
+#border = #3f444a
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
