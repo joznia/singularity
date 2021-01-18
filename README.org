@@ -1,0 +1,10 @@
+#+TITLE: Singularity
+* Singularity
+This is a color scheme I've ported to a few applications. It is a clone of Doom Emacs's *doom-one* theme.
+*** Currently supported applications:
++ alacritty
++ (neo)vim
++ xmobar
+*** TODO
++ termite
++ qtile and awesomewm powerarrow
